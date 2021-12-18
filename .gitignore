@@ -1,0 +1,73 @@
+**/**/__pycache__
+**/**/**/__pycache__
+**/__pycache__
+/__pycache__
+__pycache__
+*.pyc
+
+env
+venv
+venv-dj
+backup
+urls.md
+yekan.ttf
+iranSans.ttf
+frontend
+images
+media
+static
+db_backup
+
+OTM.rar
+dbtest.sqlite3
+
+# .gitignore
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+# Translations
+*.moGetting Started with Django 3.0 Chapter 1
+[ 35 ]
+*.pot
+# Django stuff:
+*.log
+# Sphinx documentation
+docs/_build/
+# IPython
+profile_default/
+ipython_config.py
+# Environments
+env/
+# Media and Static directories
+/media/
+!/media/.gitkeep
+/static/
+!/static/.gitkeep
+# Secrets
+secrets.json
+#local development setting
+/locale.py
+locale.py
+
+#editor files
+.vscode
+
+# envar files
+.env
