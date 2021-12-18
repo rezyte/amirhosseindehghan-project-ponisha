@@ -10,5 +10,8 @@ class Course(TimeSpecificModelBase, models.Model):
     image = models.ImageField(upload_to="categories", blank=True, verbose_name="عکس")
     is_active = models.BooleanField(default=True, verbose_name="فعال")
 
+    class Meta:
+        verbose_name_plural = "دوره ها"
+
     def __str__(self):
         return self.title

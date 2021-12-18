@@ -1,7 +1,4 @@
-import json
-import six
-
-from django.contrib.auth.mixins import AccessMixin, UserPassesTestMixin
+from django.contrib.auth.mixins import AccessMixin
 from django.contrib.auth.views import redirect_to_login
 from django.contrib import messages
 from django.shortcuts import redirect
@@ -21,11 +18,6 @@ class AnonymousMixin(AccessMixin):
 class SignInRequiredMixin(AccessMixin):
 
     next_url = None
-
-    # def get_next_url(self, *args, **kwargs):
-    #     if next_url:
-    #         return next_url
-    #     return None
 
     def dispatch(self, request, *args, **kwargs):
         if not request.user.is_authenticated:

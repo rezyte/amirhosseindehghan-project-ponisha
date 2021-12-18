@@ -89,3 +89,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # custome auth backend 
 AUTHENTICATION_BACKENDS = ['apps.core.backends.EmailBackend']
+
+LOGIN_URL = '/signin'

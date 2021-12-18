@@ -7,5 +7,8 @@ class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     courses = models.ManyToManyField("courses.Course")
 
+    class Meta:
+        verbose_name_plural = "پروفایل ها"
+
     def __str__(self):
         return f"profile for: {self.user.get_full_name()}"
