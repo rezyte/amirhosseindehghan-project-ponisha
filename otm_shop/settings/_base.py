@@ -24,7 +24,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.home.apps.HomeConfig',
     'apps.courses.apps.CoursesConfig',
-    'apps.video.apps.VideosConfig',
+    'apps.videos.apps.VideosConfig',
     'apps.profiles.apps.ProfilesConfig',
 ]
 
