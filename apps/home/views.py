@@ -1,10 +1,11 @@
 from django.shortcuts import render, redirect
 from django.views import generic, View
-from django.contrib.auth import get_user_model, authenticate
+from django.contrib.auth import get_user_model, authenticate, mixins
 from django.http import HttpResponse
 from django.contrib import messages
 
 from . import forms
+from apps.core.mixins import AnonymousMixin
 
 User = get_user_model()
 # Panel View
@@ -15,7 +16,7 @@ def index(request):
 # def signin(request):
 #     return render(request, 'home/signin/index.html')
 
-class LoginView(View):
+class LoginView(AnonymousMixin, View):
     
     def get(self, request, *args, **kwargs):
         return render(request, 'home/signin/index.html')
@@ -34,7 +35,7 @@ class LoginView(View):
             messages.warning(request, "ایمیل یا رمز عبور نمیتواند خالی باشد.")
             return redirect("home:login")
 
-class ProfileView(View):
+class ProfileView(mixins.LoginRequiredMixin, View):
 
     def get(self, request, *args, **kwargs):
         return render(request, "home/profile/index.html")
