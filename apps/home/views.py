@@ -11,15 +11,12 @@ User = get_user_model()
 # Panel View
 
 def index(request):
-    return render(request, 'home/select-panel/index.html')
-
-# def signin(request):
-#     return render(request, 'home/signin/index.html')
+    return render(request, "index.html")
 
 class LoginView(AnonymousMixin, View):
     
     def get(self, request, *args, **kwargs):
-        return render(request, 'home/signin/index.html')
+        return render(request, "login.html")
 
     def post(self, request, *args, **kwargs):
         email = request.POST.get("email")
@@ -31,9 +28,11 @@ class LoginView(AnonymousMixin, View):
                 return redirect("home:profile")
             else:
                 return HttpResponse('There is no such a user <a href="/">GO BACK</a>')
-        else:
-            messages.warning(request, "ایمیل یا رمز عبور نمیتواند خالی باشد.")
-            return redirect("home:login")
+        elif not password and email:
+            return render(request, "login.html", context = {"password_error": True})
+        elif not password and email:
+            return render(request, "login.html", context = {})
+
 
 class ProfileView(mixins.LoginRequiredMixin, View):
 
@@ -50,12 +49,3 @@ class ProfileView(mixins.LoginRequiredMixin, View):
             context = { "errors": form.errors }
             messages.error(request, "لطفا فرم اطلاعات را به درستی وارد کنید.")
             return render(request, "home/profile/index.html", context)
-
-
-
-
-def profile(request):
-    return render(request, 'home/profile/index.html')
-
-def panel(request):
-    return render(request, 'home/panel/index.html')

@@ -1,0 +1,107 @@
+{% extends "_base.html" %}
+{% load static %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'pages/index/css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'pages/index/css/responsive.css' %}" />
+{% endblock style %}
+
+{% block content %}
+<section id="fixedBtnCount">
+    <div class="packages-section">
+        <div class="splide d-lg-none d-block" id="splide">
+            <div class="splide__track">
+                <ul class="splide__list text-center">
+                    <li class="splide__slide">
+                        <div class="box">
+                            <img src="{% static 'pages/index/images/box/Artboard 3 1.png' %}" alt="" />
+                            <div class="contents">
+                                <hr />
+                                <h5>پنل دوره های زمستانه 1400</h5>
+                                <p></p>
+                                <div class="price">
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <a href="#" type="button" class="btn btn-red">ورود</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="box">
+                            <img src="{% static 'pages/index/images/box/Artboard 3 1.png' %}" alt="" />
+                            <div class="contents">
+                                <hr />
+                                <h5>پنل دوره تابستانه 1400</h5>
+                                <p></p>
+                                <div class="price">
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <a href="#" type="button" class="btn btn-red">ورود</a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="wrapper" id="dore">
+                <div class="row">
+                    <div class="col-lg-6 d-lg-block d-none">
+                        <div class="box">
+                            <img src="{% static 'pages/index/images/box/Artboard 3 1.png' %}" alt="" />
+                            <div class="contents">
+                                <hr />
+                                <h5>پنل دوره های زمستانه 1400</h5>
+                                <p></p>
+                                <div class="price">
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <a href="#" type="button" class="btn btn-red">ورود</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-lg-block d-none">
+                        <div class="box">
+                            <img src="{% static 'pages/index/images/box/Artboard 2 2.png' %}" alt="" />
+                            <div class="contents">
+                                <hr />
+                                <h5>پنل دوره تابستانه 1400</h5>
+                                <p></p>
+                                <div class="price">
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <a href="#" type="button" class="btn btn-red">ورود</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
+
+{% block scripts %}
+    <script src="{% static 'pages/index/js/main.js"></script>
+{% endblock scripts %}

@@ -1,0 +1,632 @@
+@media screen and (max-width: 1400px) {
+  body footer .flex .sponsor img {
+    width: 90%;
+  }
+  body footer .copy-right p {
+    font-size: 22px;
+  }
+  body main section .introduction-section .left {
+    margin-top: 49px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body header .navbar .nav-item .nav-link {
+    display: inline-block;
+    color: #fff;
+    padding: 20px 20px;
+  }
+  body main section .introduction-section .right {
+    padding: 150px 20px;
+  }
+  body main section .introduction-section .right .btn-right {
+    background-color: #a51c30;
+    padding: 10px 20px;
+    border-radius: 15px;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #a51c30;
+    -webkit-box-shadow: 7px 7px 20px rgba(165, 28, 48, 0.15);
+    box-shadow: 7px 7px 20px rgba(165, 28, 48, 0.15);
+  }
+  body main section .introduction-section .right .btn-left {
+    margin-right: 7px;
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #1e1e1e;
+    border: 2px solid #f2f2f2;
+  }
+  body main section .video-section a .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    height: 99%;
+    top: 0;
+    border-radius: 20px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body main section .subject ul .subject-item {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 22px;
+  }
+  body main section .teacher-section .right {
+    background-color: #a51c30;
+    border-radius: 15px;
+    width: 90%;
+    margin-top: 180px;
+    padding: 0px;
+    position: relative;
+    right: 70px;
+  }
+  body main section .teacher-section .right p {
+    color: #fff;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 35px;
+    padding: 0px 50px 20px;
+  }
+  body main section .teacher-section .right h4 {
+    color: #fff;
+    font-size: 20px;
+    padding: 30px 50px 15px;
+  }
+  body main section .packages-section .wrapper {
+    width: 100%;
+    margin: 0 auto 100px;
+  }
+  body footer .menu li {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    list-style: none;
+  }
+  footer .sponsor img {
+    width: 90%;
+  }
+  body main section .teacher-section .left img {
+    border-radius: 15px;
+    width: 80%;
+    height: auto;
+    -webkit-box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  body main section .teacher-section .left {
+    position: absolute;
+    left: 0;
+    top: -15px;
+    z-index: -1;
+  }
+  body main section .our-group-section .text {
+    position: absolute;
+    top: 140px;
+    right: 0;
+    left: 0;
+  }
+  body footer .menu li {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    list-style: none;
+  }
+  body footer .menu li {
+    margin: 0 14px;
+    font-size: 21px;
+  }
+  body main section .online-course-section {
+    margin-top: -150px;
+  }
+  body main section .skill-section span:nth-child(2) {
+    font-size: 20px;
+  }
+  body main section .skill-section span:nth-child(3) {
+    font-size: 15px;
+  }
+  body main section .online-course-section span:nth-child(2) {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body header .navbar {
+    padding: 12px 0;
+  }
+  body header .navbar .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar-toggler {
+    position: relative;
+    top: -2px;
+  }
+  body header .navbar-toggler {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    border: none !important;
+  }
+  body header .nav-item {
+    margin-top: 20px;
+    text-align: center;
+  }
+  body header .nav-item.active {
+    background-color: #fff;
+    border: none !important;
+  }
+  body header .nav-item.active .nav-link {
+    color: #000;
+    border: none !important;
+  }
+  body main section .introduction-section .right {
+    padding: 150px 20px;
+    margin-top: 530px;
+  }
+  body main section .introduction-section .right p {
+    color: #1e1e1e;
+    padding-bottom: 45px;
+    text-align: justify;
+    line-height: 2;
+    width: 100%;
+  }
+  body main section .introduction-section .right h2 {
+    color: #1e1e1e;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 45px;
+  }
+  body main section .introduction-section .right {
+    padding: 150px 20px;
+    margin-top: 530px;
+    text-align: center;
+  }
+  body main section .introduction-section .right .btn-right {
+    background-color: #a51c30;
+    padding: 10px 45px;
+    border-radius: 15px;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #a51c30;
+    -webkit-box-shadow: 7px 7px 20px rgba(165, 28, 48, 0.15);
+    box-shadow: 7px 7px 20px rgba(165, 28, 48, 0.15);
+    margin: 10px;
+  }
+  body main section .online-course-section span:nth-child(3) {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+  body main section .video-section a .img-box .photo {
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    -webkit-box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  body main section .skill-section .stripe-border {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    top: 250px;
+    display: none;
+  }
+  body main section .skill-section .row > * {
+    width: 50%;
+  }
+  body main section .teacher-section .right {
+    background-color: #a51c30;
+    border-radius: 15px;
+    width: 65%;
+    padding: 0px;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 200px;
+    margin: 0 auto;
+  }
+  body main section .teacher-section {
+    position: relative;
+    margin-top: 150px;
+  }
+  body main section .teacher-section .left {
+    position: absolute;
+    left: 140px;
+    top: -15px;
+    z-index: -1;
+  }
+  body main section .teacher-section .left img {
+    border-radius: 15px;
+    width: 90%;
+    height: auto;
+    -webkit-box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  body main section .person-course-section {
+    margin-top: 188px;
+    background-color: #f2f2f2;
+    padding-bottom: 150px;
+    padding-top: 40px;
+  }
+  body main section .person-course-section .row span {
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  body main section .our-group-section .text {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+  }
+  body main section .sign-up-section .bottom .bottom-center a button {
+    background-color: #a51c30;
+    border: 2px solid #a51c30;
+    padding: 12px 40px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 0 5px;
+  }
+  body main section .our-group-section img {
+    width: 100%;
+    height: 325px;
+  }
+  body main section .our-group-section .overlay .icon {
+    position: absolute;
+    top: -4px;
+    height: 100%;
+  }
+  body footer .box {
+    padding: 0;
+    text-align: center;
+  }
+  body footer .box .line {
+    display: none;
+  }
+  body footer .box .social {
+    display: none;
+  }
+  body footer .flex {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  body main section .introduction-section .right {
+    padding: 10px 20px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .online-course-section article:nth-child(3) {
+    display: none;
+  }
+  .online-course-section article:nth-child(4) {
+    display: none;
+  }
+  body main section .online-course-section {
+    margin-top: -106px;
+    position: relative;
+    z-index: 1;
+  }
+  body main section .video-section {
+    margin-top: 90px;
+  }
+  body main section .teacher-section .left {
+    position: relative;
+    left: auto;
+    top: -322px;
+    z-index: -1;
+    text-align: center;
+  }
+  body main section .teacher-section .left img {
+    border-radius: 15px;
+    width: 70%;
+  }
+  body main section .person-course-section {
+    margin-top: -212px;
+    background-color: #f2f2f2;
+    padding-bottom: 150px;
+    padding-top: 0;
+    position: relative;
+    z-index: 1;
+  }
+  body main section .sign-up-section .bottom {
+    width: 80%;
+  }
+  body main section .introduction-section .content h4 {
+    color: #a51c30;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body main section .teacher-section .right {
+    background-color: #a51c30;
+    border-radius: 15px;
+    width: 85%;
+    padding: 0px;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 200px;
+    margin: 0 auto;
+  }
+  body main section .person-course-section h2 {
+    margin-bottom: 80px;
+    font-size: 20px;
+  }
+  body main section .question-section .bottom-logo img {
+    width: 80%;
+  }
+  body main section .sign-up-section .bottom .bottom-center a button {
+    background-color: #a51c30;
+    border: 2px solid #a51c30;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 0 3px;
+  }
+  body main section .video-section a .img-box .icon {
+    margin-top: 21%;
+    width: 50px;
+  }
+  body main section .introduction-section .right {
+    padding: 10px 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  body main section .video-section video {
+    width: 100%;
+  }
+  body main section .person-course-section {
+    margin-top: 200px;
+  }
+  body main section .sign-up-section {
+    margin-top: 122px;
+  }
+  body main section .sign-up-section .bottom {
+    width: 100%;
+  }
+  body main section .questions-section {
+    padding: 80px 0 131px;
+  }
+  body main section .person-course-section {
+    padding-bottom: 78px;
+  }
+  body main section .introduction-section .right h2 {
+    font-size: 39px;
+  }
+  .countdown-block {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body main section .introduction-section .right .btn-right {
+    background-color: #a51c30;
+    padding: 10px 15px;
+    border-radius: 15px;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 15px;
+    border: 2px solid #a51c30;
+    -webkit-box-shadow: 7px 7px 20px rgba(165, 28, 48, 0.15);
+    box-shadow: 7px 7px 20px rgba(165, 28, 48, 0.15);
+    margin: 0;
+    margin: 0;
+  }
+  body main section .introduction-section .right .btn-left {
+    margin-right: 7px;
+    background-color: #f2f2f2;
+    padding: 10px 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #1e1e1e;
+    border: 2px solid #f2f2f2;
+  }
+  body main section .introduction-section .right h2 {
+    color: #1e1e1e;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  body main section .announced-section p {
+    color: #1e1e1e;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+  }
+  body main section .skill-section span:nth-child(2) {
+    font-size: 15px;
+    margin-top: 65px;
+  }
+  body main section .skill-section span:nth-child(3) {
+    font-size: 14px;
+    padding-bottom: 60px;
+  }
+  body main section .teacher-section .left img {
+    border-radius: 15px;
+    width: 80%;
+    height: auto;
+    -webkit-box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  body main section .teacher-section .right {
+    background-color: #a51c30;
+    border-radius: 15px;
+    width: 65%;
+    padding: 0px;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 200px;
+    margin: 0 auto;
+  }
+  body main section .sign-up-section .bottom .bottom-center .last {
+    width: 100%;
+    border-radius: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 2px solid #000;
+  }
+  body main section .our-group-section .text p {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  body main section .teacher-section .right {
+    width: 85%;
+  }
+  body main section .person-course-section {
+    margin-top: -225px;
+  }
+  .bottom-center .d-flex div {
+    margin: 0 4px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  body main section .teacher-section .left img {
+    border-radius: 15px;
+    width: 60%;
+    height: auto;
+    -webkit-box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  body main section .skill-section h2 {
+    color: #1e1e1e;
+    font-size: 17px;
+    padding: 60px 0 125px;
+  }
+  body main section .sign-up-time-section h3 {
+    padding-top: 150px;
+    font-size: 20px;
+  }
+  body main section .sign-up-section .bottom .bottom-center a button {
+    background-color: #a51c30;
+    border: 2px solid #a51c30;
+    padding: 12px 25px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 6px 18px;
+    text-align: center;
+    width: 80%;
+  }
+  body main section .person-course-section {
+    margin-top: -46px;
+  }
+  body main section .questions-section .bottom-logo {
+    position: absolute;
+    bottom: -8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body main section .teacher-section .left img {
+    width: 90%;
+  }
+  body main section .teacher-section .top {
+    position: absolute;
+    left: 157px;
+    top: -60px;
+    z-index: -1;
+  }
+  body main section .teacher-section .left {
+    top: -469px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main section .certificate-section h2 {
+    margin-bottom: 80px;
+    font-size: 20px;
+  }
+  body footer .menu li {
+    display: block;
+  }
+  body footer .copy-right p {
+    font-size: 15px;
+  }
+  .skill-section img {
+    width: 100%;
+  }
+  body main section .questions-section .btn-red {
+    margin-top: -11px;
+    margin-bottom: 61px;
+  }
+  body main section .skill-section {
+    position: relative;
+    z-index: 1;
+  }
+  body main section .skill-section span:nth-child(2) {
+    font-size: 15px;
+    margin-top: 41px;
+  }
+  body main section .skill-section article:nth-child(2) span:nth-child(2) {
+    margin-top: 36px;
+  }
+  body main section .skill-section article:nth-child(3) span:nth-child(2) {
+    margin-top: 49px;
+  }
+  body main section .skill-section article:nth-child(4) span:nth-child(2) {
+    margin-top: 34px;
+  }
+  .skill-section img {
+    width: 85%;
+  }
+  body main section .skill-section h2 {
+    color: #1e1e1e;
+    font-size: 17px;
+    padding: 60px 0 83px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  body main section .person-course-section h2 {
+    margin-bottom: 80px;
+    font-size: 16px;
+  }
+  body main section .sign-up-time-section h3 {
+    padding-top: 150px;
+    font-size: 16px;
+  }
+  body main section .teacher-section .right {
+    width: 97%;
+  }
+  body main section .subject {
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 89px;
+  }
+  body main section .person-course-section {
+    margin-top: -143px;
+  }
+  body
+main
+section
+.sign-up-section
+.bottom
+.bottom-center
+.form-check
+.form-check-label {
+    font-size: 13px;
+    padding: 2px 30px 25px;
+    line-height: 20px;
+  }
+  .bottom-center .d-flex {
+    display: block !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

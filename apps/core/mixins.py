@@ -3,6 +3,10 @@ from django.contrib.auth.views import redirect_to_login
 from django.contrib import messages
 from django.shortcuts import redirect
 from django.core.exceptions import ImproperlyConfigured
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
+
 
 class AnonymousMixin(AccessMixin):
 
@@ -26,12 +30,17 @@ class SignInRequiredMixin(AccessMixin):
 
 
 
-class ProducerOnlyMixin(AccessMixin):
-    
+
+class HasCompletedProfileAccessMixin(AccessMixin):
+
     def dispatch(self, request, *args, **kwargs):
-        if not request.user.is_producer:
-            messages.error(request, '{ "message": "you don\'t have permissions!" }')
-            return redirect("userpanel:index")
+        try:
+            if not request.user.profile.has_completed:
+                messages.error(request, "لطفا پروفایل خود را تکمیل کنید.")
+                return redirect("profiles:complete-info")
+        except User.profile.RelatedObjectDoesNotExist:
+            messages.error(request, "لطفا پروفایل خود را تکمیل کنید.")
+            return redirect("profiles:complete-info")
         return super().dispatch(request, *args, **kwargs)
 
 
