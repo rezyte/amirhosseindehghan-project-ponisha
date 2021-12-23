@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.views import generic, View
-from django.contrib.auth import get_user_model, authenticate, mixins
+from django.contrib.auth import get_user_model, authenticate, mixins, login
 from django.http import HttpResponse
 from django.contrib import messages
 
@@ -25,7 +25,8 @@ class LoginView(AnonymousMixin, View):
         if email and password:
             user = authenticate(username=email, password=password)
             if user:
-                return redirect("home:profile")
+                login(request, user)
+                return redirect("profiles:index")
             else:
                 return HttpResponse('There is no such a user <a href="/">GO BACK</a>')
         elif not password and email:
