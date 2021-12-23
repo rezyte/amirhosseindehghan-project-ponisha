@@ -1,5 +1,7 @@
 from django.db import models
 from django.contrib.auth import get_user_model
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 
 User = get_user_model()
 
@@ -17,8 +19,14 @@ class Profile(models.Model):
         return f"profile for: {self.user.get_full_name()}"
 
     def save(self, *args, **kwargs):
+        if self.address and self.phone:
+            if self.user.email and self.user.last_name:
+                self.has_completed = True
+        
         super(Profile, self).save(*args, **kwargs)
-        if not self.has_completed and (self.user.email and self.user.first_name and self.user.last_name and self.user.email and self.phone and self.address):
-            self.has_completed = True
 
+@receiver(post_save, sender=User)
+def change_has_completed_status(sender, instance, created, **kwargs):
+    instance.profile.save()
+    print("Implemented save for this \n", instance.email, "email owner profile")
 
